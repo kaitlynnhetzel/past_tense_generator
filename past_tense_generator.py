@@ -11,7 +11,7 @@ single_forms =  ["cut", "put", "let", "hurt", "quit", "read", "broadcast", "hit"
 vowels = ['a','e','i','o','u','y']
 
 #suffixes of root words that will never be repeated
-end_hushers = ["x", "lk", "sh", "ch", "ck", "h", "k", "nt", "lp"]
+end_hushers = ["x", "lk", "sh", "ch", "ck", "h", "k", "nt", "lp", "wn"]
 def needsDoubleConsonant(verb):
     count = 0
     for letter in verb:
@@ -63,6 +63,7 @@ while True:
             to_past = "".join(temp)
             to_past = to_past + "ed"
             print (to_past)
+    #checking if verb needs a repeated consonant before "ed"
     elif needsDoubleConsonant(to_past):
         to_past = to_past + to_past[len(to_past) -1] + "ed"
         print (to_past)
