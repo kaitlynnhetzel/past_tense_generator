@@ -2,7 +2,7 @@
 
 #these verbs are ones with irregular past tenses 
 irregular_forms =  {"go": "went","buy": "bought", "break": "broke", "sit": "sat", "come":"came", "eat": "ate", "sleep": "slept", "see": "saw", "pay": "paid", "sing": "sang", "tell": "told", "get": "got", "teach": "taught", "feel": "felt",
-"hear": "heard", "understand": "understood"}
+"hear": "heard", "understand": "understood", "is": "was"}
 
 #these verbs are the same in both the present and pass tense 
 single_forms =  ["cut", "put", "let", "hurt", "quit", "read", "broadcast", "hit", "cost", "spread"]
