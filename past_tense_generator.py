@@ -4,7 +4,7 @@
 
 #these verbs are ones with irregular past tenses 
 irregular_forms =  {"go": "went","buy": "bought", "break": "broke", "sit": "sat", "come":"came", "eat": "ate", "sleep": "slept", "see": "saw", "pay": "paid", "sing": "sang", "tell": "told", "get": "got", "teach": "taught", "feel": "felt",
-"hear": "heard", "understand": "understood", "is": "was"}
+"hear": "heard", "understand": "understood", "is": "was", "make": "made"}
 
 #these verbs are the same in both the present and pass tense 
 single_forms =  ["cut", "put", "let", "hurt", "quit", "read", "broadcast", "hit", "cost", "spread"]
@@ -16,6 +16,10 @@ vowels = ['a','e','i','o','u','y']
 end_hushers = ["x", "lk", "sh", "ch", "ck", "h", "k", "nt", "lp", "wn"]
 def needsDoubleConsonant(verb):
     count = 0
+
+    #since multiple vowels are usually not mono-syllabic, we are counting them to see if  a word is monosyllabic
+    #along that same note, it is not common for a mono-syllabic word with two adjacent vowels (i.e - beam) to then
+    #be followed by a double consonant. if any edge cases arise, they will be added in later
     for letter in verb:
         if letter in vowels:
             count = count + 1
