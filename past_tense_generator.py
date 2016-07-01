@@ -1,4 +1,6 @@
 #this program generates the past tense of a word
+#will be updated as exception cases are found and made
+#author - Kaitlynn Hetzel 
 
 #these verbs are ones with irregular past tenses 
 irregular_forms =  {"go": "went","buy": "bought", "break": "broke", "sit": "sat", "come":"came", "eat": "ate", "sleep": "slept", "see": "saw", "pay": "paid", "sing": "sang", "tell": "told", "get": "got", "teach": "taught", "feel": "felt",
