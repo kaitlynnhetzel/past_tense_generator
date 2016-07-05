@@ -4,7 +4,7 @@
 
 #these verbs are ones with irregular past tenses 
 irregular_forms =  {"go": "went","buy": "bought", "break": "broke", "sit": "sat", "come":"came", "eat": "ate", "sleep": "slept", "see": "saw", "pay": "paid", "sing": "sang", "tell": "told", "get": "got", "teach": "taught", "feel": "felt",
-"hear": "heard", "understand": "understood", "is": "was", "make": "made"}
+"hear": "heard", "understand": "understood", "is": "was", "make": "made", "lose": "lost"}
 
 #these verbs are the same in both the present and pass tense 
 single_forms =  ["cut", "put", "let", "hurt", "quit", "read", "broadcast", "hit", "cost", "spread"]
@@ -13,7 +13,7 @@ single_forms =  ["cut", "put", "let", "hurt", "quit", "read", "broadcast", "hit"
 vowels = ['a','e','i','o','u','y']
 
 #suffixes of root words that will never be repeated
-end_hushers = ["x", "lk", "sh", "ch", "ck", "h", "k", "nt", "lp", "wn"]
+end_hushers = ["x", "lk", "sh", "ch", "ck", "h", "k", "nt", "lp", "wn", "st"]
 def needsDoubleConsonant(verb):
     count = 0
 
